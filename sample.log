@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2018.4.14)  16 APR 2018 17:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2018.4.14)  16 APR 2018 19:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -455,14 +455,125 @@ LaTeX Warning: No \author given.
 
 [1
 
+]
+! Output loop---100 consecutive dead cycles.
+\clearpage ...rite \m@ne {}\vbox {}\penalty -\@Mi 
+                                                  
+l.15 \end{document}
+                   
+I've concluded that your \output is awry; it never does a
+\shipout, so I'm shipping \box255 out myself. Next time
+increase \maxdeadcycles if you want me to be more patient!
+
+[1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ] (./sample.aux) ) 
 Here is how much of TeX's memory you used:
  1747 strings out of 494911
  19010 string characters out of 6179862
- 67843 words of memory out of 5000000
+ 68843 words of memory out of 5000000
  5048 multiletter control sequences out of 15000+600000
  8584 words of font info for 33 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  27i,6n,24p,223b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on sample.dvi (1 page, 296 bytes).
+Output written on sample.dvi (2 pages, 340 bytes).
